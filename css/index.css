@@ -1,8 +1,21 @@
 body {
     background:#000000;
-    color:#fff;
+    color:#4D9B44;
 }
 *{margin:0;
     padding:0
 
+}
+div {
+    background:#ccc;
+    width: 100%;
+}
+img {
+    width:300px;
+    height:auto;
+    margin:auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow:5px 5px 0px #ccc;
+    padding: 10px;
 }
