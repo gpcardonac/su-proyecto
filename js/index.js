@@ -5,5 +5,16 @@
 function captura(){
     var nombreest=document.getElementById("nombreest").value;
     var celuest=document.getElementById("celest").value;
+    if (nombreest=="") {
+        alert("El nombre es obligatorio");
+        document.getElementById("nombreest").focus();
+    }else{
+        if (celuest=="") {
+        alert("El número de celular es obligatorio");
+        document.getElementById("nombreest").focus();
+        }
+    }
+
+
     console.log(nombreest +" "+celuest);
 }
